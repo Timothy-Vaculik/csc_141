@@ -1,3 +1,7 @@
+# Timothy Vaculik
+# Code for looping
+# Make it correct and have no errors
+
 pizzas = ["Veggie Delight", "Peperoni", "Jimmys Pie", "Anchovies", "Cheese"]
 
 for pizza in pizzas:

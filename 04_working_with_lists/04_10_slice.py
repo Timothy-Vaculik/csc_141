@@ -1,4 +1,6 @@
 #Find to how to write and add several lines to print the next ones. 
+# Timothy Vaculik
+# Make it correct and have no errors
 
 pizzas_slice = ["Veggie Delight", "Peperoni", "Jimmys Pie", "Anchovies", "Cheese"]
 

@@ -1,5 +1,6 @@
+# Timothy Vaculik
 # Three Different animals that have a common trait, list them and then use a loop
-
+# Make it correct and have no errors
 
 animals =["Rabbit","Frog","Pig"]
 

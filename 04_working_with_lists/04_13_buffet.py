@@ -1,5 +1,6 @@
-#Use a for loop to print each food the restaurant offers
+# Use a for loop to print each food the restaurant offers
 
+# Timothy Vaculik
 menu = ('rice', 'pasta', 'salad', 'chicken', 'steak')
 
 print("First Menu:")
