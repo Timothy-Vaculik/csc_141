@@ -1,3 +1,9 @@
+'''
+Timothy Vaculik
+Learning how to do personal messages
+I do love computers
+'''
+
 message = "I love computers!"
 print("message")
 

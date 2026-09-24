@@ -1,3 +1,10 @@
+'''
+Timothy Vaculik
+Chapter 2: Variables and data types 
+It time to learn
+'''
+
+
 git config --global user.name "Timothy Vaculik"
 git config --global user.email "Tvck77@gmail.com"
 

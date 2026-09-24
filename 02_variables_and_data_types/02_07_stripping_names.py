@@ -1,3 +1,9 @@
+'''
+Timothy Vaculik
+This was a very confusing one,but I was able to get throught it
+These strip comments are pretty cool
+'''
+
 name = "\tAlbert Einstein\n"
 
 

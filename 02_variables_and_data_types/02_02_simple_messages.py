@@ -1,3 +1,9 @@
+'''
+Timothy Vaculik
+Get ready to use python world
+There might be a big error
+'''
+
 message = "Hello Python world!, this is my first time using Python and I am excited to learn more about it."
 print(message)
 
