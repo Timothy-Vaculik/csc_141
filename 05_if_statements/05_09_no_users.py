@@ -4,9 +4,15 @@
 # Difficulty 3/10
 # usernames = ['timothy', 'alex', 'admin', 'mike', 'jake']
 
-usernames = [] # Empty list, no users found
+usernames = [] 
+
+if usernames:
+    for username in usernames:
+        if username == 'admin':
+            print("Hello admin, would you like to see a status report?")
+    else:
+        print (f"Hello {username} , thanks for the update for the status report!")
 if not usernames:
     print ("We need some users")
-print ('Test')
 
-usernames.clear() 
+

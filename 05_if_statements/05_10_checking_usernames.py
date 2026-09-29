@@ -1,6 +1,7 @@
 # Timothy Vaculik
 # Checking Usernames
 # Finding if there is anything wrong
+# 09/26/2026
 
 current_users = ['admin', 'Phil', 'Zack', 'Pam', 'Zach']
 new_users = ['Rose', 'David', 'Aden', 'Emily', 'Tim']

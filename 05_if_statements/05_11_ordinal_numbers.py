@@ -1,20 +1,18 @@
 # Timothy Vaculik
 # Ordinal numbers
 # Store the numbers 1 through 9 in a list
+# 09/26/2026
 
-nums = list(range(1, 10))
-print(nums)
+numbers = list(range(1, 10))
 
-ending = ""
-for num in nums:
-
-    if num == 1:
-      ending = "st"
-    elif num == 2:
+for number in numbers:
+    if number == 1:
+        ending = "st"
+    elif number == 2:
         ending = "nd"
-    elif num == 3:
+    elif number == 3:
         ending = "rd"
     else:
         ending = "th"
-    print(f"{num}{ending}")
+    print(f"{number}{ending}")
 

@@ -1,3 +1,7 @@
+# Timothy Vaculik
+# 09/26/2026
+# Ideas
+
 """
 Examples
 

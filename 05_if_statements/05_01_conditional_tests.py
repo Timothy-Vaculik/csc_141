@@ -1,6 +1,7 @@
 # Timothy Vaculik
 # Series of conditional test
 # True or false
+# 09/26/2026
 
 car = 'Dodge'
 print("Is car == 'Dodge'? I predict True.")
