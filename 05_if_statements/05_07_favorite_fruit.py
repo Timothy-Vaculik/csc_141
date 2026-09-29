@@ -1,0 +1,20 @@
+# Timothy Vaculik
+# Exercise 5-7: Favorite Fruit
+# Is your favorite fruit
+
+favorite_fruits= ['guava', 'blackberry', 'pomelo']
+
+if 'guave' in favorite_fruits:
+    print("You really like guava!")
+
+if 'blackberry' in favorite_fruits:
+    print("You really like blackberry!")
+
+if 'pomelo' in favorite_fruits:
+    print("You really like pomelo!")
+
+if 'orange' in favorite_fruits:
+    print("You really like orange!")
+
+if 'watermelon' in favorite_fruits:
+    print("You really like watermelon!")
