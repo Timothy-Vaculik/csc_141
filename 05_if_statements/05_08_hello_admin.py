@@ -2,6 +2,7 @@
 #  Hello Admin
 # Status report for admin
 # 09/26/2026
+# 4/10 Difficulty
 
 usernames = ['timothy', 'alex', 'admin', 'mike', 'jake']
 

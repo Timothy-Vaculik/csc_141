@@ -2,6 +2,7 @@
 # Series of conditional test
 # True or false
 # 09/26/2026
+# 6/10
 
 car = 'Dodge'
 print("Is car == 'Dodge'? I predict True.")
@@ -26,7 +27,7 @@ print("\nIs food == 'burger'? I predict False.")
 print(food == 'burger')
 
 city = 'San Diego'
-print("\nIs city == 'San Diego'? I predict True.")
+print("Is city == 'San Diego'? I predict True.")
 print(city == 'San Diego')
 
 print("\nIs city == 'Chicago'? I predict False.")
@@ -34,7 +35,7 @@ print(city == 'Chicago')
 
 
 number = 12
-print("\nIs number == 12? I predict True.")
+print("Is number == 12? I predict True.")
 print(number == 12)
 
 print("\nIs number == 69? I predict False.")

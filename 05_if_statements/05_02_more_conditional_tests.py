@@ -2,6 +2,7 @@
 # More Conditional Tests
 # Testing more ways how to do it 
 # 09/26/2026
+# 7/10 Difficulty
 
 favorite_food = 'pizza'
 

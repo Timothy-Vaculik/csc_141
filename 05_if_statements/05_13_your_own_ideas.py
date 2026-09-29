@@ -1,6 +1,7 @@
 # Timothy Vaculik
 # 09/26/2026
 # Ideas
+# 0/10 Difficulty
 
 """
 Examples

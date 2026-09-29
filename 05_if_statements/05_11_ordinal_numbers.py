@@ -2,6 +2,7 @@
 # Ordinal numbers
 # Store the numbers 1 through 9 in a list
 # 09/26/2026
+# 4/10 Difficulty
 
 numbers = list(range(1, 10))
 

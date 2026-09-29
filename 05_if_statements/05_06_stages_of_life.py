@@ -2,6 +2,7 @@
 # Exercise 5-6 : Stages of Life
 # What age in life is this person
 # 09/26/2026
+# 2/10 Difficulty
 
 age = 50
 

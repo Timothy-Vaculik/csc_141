@@ -2,6 +2,7 @@
 # Exercise 5-5: Alien Colors #3
 # Did player get 5 points or not
 # 09/26/2026
+# 3/10 Difficulty
 
 alien_color = 'blue'
 
