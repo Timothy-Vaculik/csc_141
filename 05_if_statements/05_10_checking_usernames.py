@@ -1,15 +1,14 @@
 # Timothy Vaculik
-# Exercise 5-10 : Checking Usernames
+# Checking Usernames
 # Finding if there is anything wrong
 
-current_users = ["admin", "david", "Kitty", "JOHN", "BRANDON"]
+current_users = ['admin', 'Phil', 'Zack', 'Pam', 'Zach']
+new_users = ['Rose', 'David', 'Aden', 'Emily', 'Tim']
 
-new_users = ["John", "Zach", "Brandon", "Nick", "Aden"]
-
-current_users_lowered = [username.lower() for username in current_users]
+current_users_lower = [user.lower() for user in current_users]
 
 for new_user in new_users:
-    if new_user.lower() in current_users_lowered:
-        print(f"{new_user} is already taken!")
-        continue
-    print(f"{new_user} is available!")
+    if new_user.lower() in current_users_lower:
+        print(f"The username '{new_user}' is already taken. Please enter a new username.")
+else:
+    print(f"The username '{new_user}' is available.")

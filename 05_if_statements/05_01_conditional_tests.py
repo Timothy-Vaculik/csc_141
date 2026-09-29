@@ -2,39 +2,39 @@
 # Series of conditional test
 # True or false
 
-car = 'Subaru'
-print("Is car == 'Subaru'? I predict True.")
-print(car == 'Subaru')
+car = 'Dodge'
+print("Is car == 'Dodge'? I predict True.")
+print(car == 'Dodge')
 
 print("\nIs car == 'Ford'? I predict False.")
 print(car == 'Ford')
 
 
 hockey = 'sport'
-print("\nIs hockey == 'sport'? I predict True.")
+print("Is hockey == 'sport'? I predict True.")
 print(hockey == 'sport')
 
-print("\nIs hockey == 'football'? I predict False.")
-print(hockey == 'football')
+print("\nIs hockey == 'golf'? I predict False.")
+print(hockey == 'golf')
 
 food = 'pizza'
-print("\nIs food == 'pizza'? I predict True.")
+print("Is food == 'pizza'? I predict True.")
 print(food == 'pizza')
 
 print("\nIs food == 'burger'? I predict False.")
 print(food == 'burger')
 
-city = 'Boston'
-print("\nIs city == 'Boston'? I predict True.")
-print(city == 'Boston')
+city = 'San Diego'
+print("\nIs city == 'San Diego'? I predict True.")
+print(city == 'San Diego')
 
 print("\nIs city == 'Chicago'? I predict False.")
 print(city == 'Chicago')
 
 
-number = 10
-print("\nIs number == 10? I predict True.")
-print(number == 10)
+number = 12
+print("\nIs number == 12? I predict True.")
+print(number == 12)
 
-print("\nIs number == 20? I predict False.")
-print(number == 20)
+print("\nIs number == 69? I predict False.")
+print(number == 69)

@@ -1,8 +1,8 @@
 # Timothy Vaculik
-# Exercise 5-7: Favorite Fruit
+# Favorite Fruit
 # Is your favorite fruit
 
-favorite_fruits= ['guava', 'blackberry', 'pomelo']
+favorite_fruits = ['guava', 'blackberry', 'pomelo']
 
 if 'guave' in favorite_fruits:
     print("You really like guava!")

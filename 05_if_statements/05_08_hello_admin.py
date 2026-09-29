@@ -1,5 +1,5 @@
 # Timothy Vaculik
-# Exercise 5-8: Hello Admin
+#  Hello Admin
 # Status report for admin
 
 usernames = ['timothy', 'alex', 'admin', 'mike', 'jake']
