@@ -1,6 +1,6 @@
 # Timothy Vaculik
-# 
-# I think is is difficulty of 4/10
+# New definitions for a glossary of terms
+# I think is is difficulty of 8/10
 
 glossary = {
     'string': 'A series of characters.',

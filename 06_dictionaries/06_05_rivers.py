@@ -1,13 +1,11 @@
 # Timothy Vaculik
-# 
+# Rivers of the Earth
 # I think is is difficulty of 4/10
 
 rivers = {
     'nile': 'egypt',
     'mississippi': 'united states',
-    'fraser': 'canada',
-    'kuskokwim': 'alaska',
-    'yangtze': 'china',
+    'colorado ': 'colorado ',
     }
 
 for river, country in rivers.items():

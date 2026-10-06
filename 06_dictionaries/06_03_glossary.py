@@ -1,6 +1,6 @@
 # Timothy Vaculik
-# 
-# I think is is difficulty of 4/10
+# Glossary for finding new words and their definitions
+# I think is is difficulty of 7/10
 
 glossary = {
     'string': 'A series of characters.',
