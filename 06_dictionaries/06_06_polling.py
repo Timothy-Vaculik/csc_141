@@ -1,5 +1,5 @@
 # Timothy Vaculik
-# 
+#  Polling for favorite languages
 # I think is is difficulty of 6/10
 
 poll = ["tim", "nick", "phil", "aden", "david", "erin"]
