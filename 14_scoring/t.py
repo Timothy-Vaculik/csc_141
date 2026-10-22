@@ -11,8 +11,8 @@ image = pygame.image.load(image_path)
 running = True
 while running:
     for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-        running = False
+        if event.type == pygame.QUIT:
+            running = False
 screen.fill((30, 30, 30))
 screen.blit(image, (0, 0))
 pygame.display.flip()

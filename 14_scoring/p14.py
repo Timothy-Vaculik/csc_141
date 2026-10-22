@@ -5,8 +5,9 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("My Pygame Test")
 
-image_path = "pictures.png"
+image_path = "picture.png"
 image = pygame.image.load(image_path)
+
 
 running = True
 while running:
