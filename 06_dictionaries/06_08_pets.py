@@ -20,4 +20,4 @@ pet3 = {
 pets = [pet1, pet2, pet3]
 
 for pet in pets:
-    print(pet)
+    print(f"Animal: {pet['animal'].title()}, Owner: {pet['owner'].title()}")

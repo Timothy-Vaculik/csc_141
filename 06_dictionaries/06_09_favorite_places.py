@@ -9,6 +9,6 @@ favorite_places = {
 }
 
 for name, places in favorite_places.items():
-	print(name.title() + ", your favorite places are:")
+	print(f"\n{name.title()}'s favorite places are:")
 	for place in places:
-		print("\t" + place.title())
+		print(f"- {place.title()}")

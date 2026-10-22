@@ -33,8 +33,8 @@ person_3 = {
 people = [person_0, person_1, person_2, person_3]
 
 for person in people:
-    name = f"{person['first_name'].title()} {person['last_name'].title()}"
+    full_name = f"{person['first_name']} {person['last_name']}"
     age = person['age']
-    city = person['city'].title()
+    city = person['city']
     
-    print(f"{name}, from {city}, is {age} years old.")
+    print(f"Name: {full_name}, Age: {age}, City: {city}")

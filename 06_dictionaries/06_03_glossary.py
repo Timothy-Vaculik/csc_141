@@ -10,17 +10,5 @@ glossary = {
     'dictionary': "A collection of key-value pairs.",
     }
 
-word = 'string'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'comment'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'list'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'loop'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'dictionary'
-print(f"\n{word.title()}: {glossary[word]}")
+for word, definition in glossary.items():
+    print(f"{word.title()}: {definition}")
