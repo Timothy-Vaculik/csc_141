@@ -5,36 +5,38 @@
 
 from random import choice
 
-def __init__(self, num_points=5000):
-    self.num_points = num_points
 
-    self.x_values = [0]
-    self.values = [0]
+class RandomWalk:
+    """A class to generate random walks"""
+    def __init__(self, num_points=5000):
+        self.num_points = num_points
+        self.x_values = [0]
+        self.y_values = [0]
 
     def more_step(self):
-        """Determine the distance and the direction"""
+        """Determine the distance and direction of one step."""
         distance = choice([1, -1])
         direction = choice([0, 1, 2, 3])
-        return distance*direction
+        return distance * direction
 
-    def fill_walk(me):
-        """Calculate points by using more_step() """
-        while len(me.x_values) < me.num_points:
+    def fill_walk(self):
+        """Calculate points for the random walk."""
+        while len(self.x_values) < self.num_points:
 
-            x_step = me.more_step()
-            y_step = me.more_step()
+            x_step = self.more_step()
+            y_step = self.more_step()
 
             if x_step == 0 and y_step == 0:
                 continue
 
-            x = me.x_values[-1] + x_step
-            y = me.y_values[-1] + y_step
+            (self.x_values[-1] + x_step)
+            (self.y_values[-1] + y_step)
 
-            me.x_values.append(x)
-            me.y_values.append(y)
+            x = self.x_values[-1] + x_step
+            y = self.y_values[-1] + y_step
 
-
-            
+            self.x_values.append(x)
+            self.y_values.append(y)
 
 
 
