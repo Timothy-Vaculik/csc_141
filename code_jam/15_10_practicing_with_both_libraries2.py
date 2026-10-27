@@ -1,4 +1,6 @@
-
+# Timothy Vaculik
+# Walking around again
+# I think is is difficulty of 10/10
 from plotly.graph_objs import Layout, Scatter
 from plotly import offline
 import my_random
