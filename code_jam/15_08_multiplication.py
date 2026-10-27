@@ -5,25 +5,24 @@
 from plotly.graph_objects import Figure, Bar, Layout
 from plotly import offline
 
-from code_jam import die
+from die import Die
 
 
-die_1 = die.Die()
-die_2 = die.Die()
-die.Die
+die_1 = Die()
+die_2 = Die()
 
 results = []
 for roll_num in range(1000):
     result = die_1.roll() * die_2.roll()
     results.append(result)
 
-    frequency = []
+    frequencies = []
     for value in range(1, die_1.num_sides * die_2.num_sides + 1):
         frequency = results.count(value)
-        frequency.append(frequency)
+        frequencies.append(frequency)
 
         x_values = list(range(1, die_1.num_sides * die_2.num_sides + 1))
-        data = [Bar(x=x_values, y=frequency)]
+        data = [Bar(x=x_values, y=frequencies)]
 
         xaxis_config = {'title': 'Result', 'dtick': 1}
         yaxis_config = {'title': 'Frequency'}
