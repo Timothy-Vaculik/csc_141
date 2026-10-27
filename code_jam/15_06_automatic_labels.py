@@ -5,18 +5,18 @@
 import plotly.express as px
 from plotly.offline import plot
 
-from die import Die
+from die import die
 
-die_1 = Die(num_sides=8)
-die_2 = Die(num_sides=8)
+Die_1 = die(num_sides=8)
+Die_2 = die(num_sides=8)
 
 results = []
 for roll_num in range(1000):
-    result = die_1.roll() + die_2.roll()
+    result = Die_1.roll() + Die_2.roll()
     results.append(result)
 
     frequency = []
-    max_result = die_1.num_sides + die_2.num_sides
+    max_result = Die_1.num_sides + Die_2.num_sides
     for value in range(2, max_result + 1):
         frequency = results.count(value)
         frequency.append(frequency)

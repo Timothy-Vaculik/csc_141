@@ -4,6 +4,7 @@
 
 from plotly import graph_objects as go
 from plotly.offline import plot
+from die import Die
 
 die_1 = Die()
 die_2 = Die()   

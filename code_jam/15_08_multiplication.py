@@ -5,8 +5,12 @@
 from plotly.graph_objects import Figure, Bar, Layout
 from plotly import offline
 
-die_1 = Die()
-die_2 = Die()
+from code_jam import die
+
+
+die_1 = die.Die()
+die_2 = die.Die()
+die.Die
 
 results = []
 for roll_num in range(1000):
