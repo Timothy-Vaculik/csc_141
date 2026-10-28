@@ -17,15 +17,17 @@ for roll_num in range(1000):
     results.append(result)
 
     frequencies = []
-    for value in range(1, die_1.num_sides * die_2.num_sides + 1):
-        frequency = results.count(value)
-        frequencies.append(frequency)
+    max_value = die_1.num_sides * die_2.num_sides
+    x_values = list(range(1, max_value + 1))
 
-        x_values = list(range(1, die_1.num_sides * die_2.num_sides + 1))
-        data = [Bar(x=x_values, y=frequencies)]
+    x_values = list(range(1, die_1.num_sides * die_2.num_sides + 1))
+    data = [Bar(x=x_values, y=frequencies)]
 
-        xaxis_config = {'title': 'Result', 'dtick': 1}
-        yaxis_config = {'title': 'Frequency'}
-        my_layout = Layout(title='Results of rolling two D6 dice 1000 times and multiplying the results', xaxis=xaxis_config, yaxis=yaxis_config)
+    for value in x_values:
+            frequency = results.count(value)
+    frequencies.append(frequency)
+    xaxis_config = {'title': 'Result', 'dtick': 1}
+    yaxis_config = {'title': 'Frequency'}
+    my_layout = Layout(title='Results of rolling two D6 dice 1000 times and multiplying the results', xaxis=xaxis_config, yaxis=yaxis_config)
 
     offline.plot({'data': data, 'layout': my_layout}, filename='multiplication_dice.html')

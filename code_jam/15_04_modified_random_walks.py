@@ -3,40 +3,32 @@
 # I think is is difficulty of 9/10
 
 
-from random import choice
+import matplotlib.pyplot as plt
+from my_random import RandomWalk
 
-class RandomWalk:
-    """A class to generate random walks"""
-    def __init__(self, num_points=5000):
-        self.num_points = num_points
-        self.x_values = [0]
-        self.y_values = [0]
+while True:
+    rw = RandomWalk(5000)
+    rw.fill_walk()
 
-    def more_step(self):
-        """Determine the distance and direction of one step."""
-        distance = choice([1, -1])
-        direction = choice([0, 1, 2, 3])
-        return distance * direction
+    plt.style.use('classic')
+    fig, ax = plt.subplots(figsize=(15, 9))
 
-    def fill_walk(self):
-        """Calculate points for the random walk."""
-        while len(self.x_values) < self.num_points:
+    point_numbers = list(range(rw.num_points))
+    ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues, edgecolor='none', s=1)
 
-            x_step = self.more_step()
-            y_step = self.more_step()
+    ax.set_aspect('equal')
 
-            if x_step == 0 and y_step == 0:
-                continue
+    ax.scatter(0, 0, c='green', edgecolors='none', s=100)
+    ax.scatter(rw.x_values[-1], rw.y_values[-1], c='red', edgecolors='none', s=100)
 
-            (self.x_values[-1] + x_step)
-            (self.y_values[-1] + y_step)
+    ax.get_xaxis().set_visible(False)
+    ax.get_yaxis().set_visible(False)
 
-            x = self.x_values[-1] + x_step
-            y = self.y_values[-1] + y_step
+    plt.show()
 
-            self.x_values.append(x)
-            self.y_values.append(y)
-
+    keep_running = input("Make another walk? (y/n): ")
+    if keep_running == 'n':
+        break
 
 
 
