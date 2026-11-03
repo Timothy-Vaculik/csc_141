@@ -1,11 +1,14 @@
+# Timothy Vaculik
+# message with functions
+# I think is is difficulty of 1/10
+
 '''
-This is a challeng for me
+This is a challenge for me
 Difficulty 2/10
 Timothy Vaculik
 '''
 
-def favorite_book(best_book):
-    print(f"One of my favorite books is{best_book}")
+def display_message():
+    print("Hello, this is a simple message!")
 
-    favorite_book("Python 3rd edition(Gives Python Power)")
-
+display_message()
